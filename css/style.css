@@ -1,0 +1,44 @@
+@import url("reset.css");
+@import url("common.css");
+
+
+.card-container{
+    border-radius: 20px;
+    padding: 16px 16px 40px 16px;
+    width: 320px;
+    height: 499px;
+
+    box-shadow: 0 25px 25px 0 rgba(0, 0, 0, 0.05);
+    background: #fff;
+}
+
+.qrcode-container{
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 24px;
+}
+
+.description{
+    text-align: center;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+.title{
+    font-weight: 700;
+    font-size: 22px;
+
+    line-height: 1.2;
+    color: #1f314f;
+    margin-bottom: 16px;
+}
+
+.text{
+    font-weight: 400;
+    font-size: 15px;
+
+    line-height: 1.4;
+    letter-spacing: 0.01em;
+    color: #68778d;
+}
+
